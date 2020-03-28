@@ -28,8 +28,8 @@ public class Patrol : MonoBehaviour
     private void Update()
     {
         transform.position = Vector2.MoveTowards(transform.position, patrollingSpots[_randomSpot].position, speed * Time.deltaTime);
-        _horizontal = Mathf.Clamp(transform.position.x - _lastPosition.x, -1, 1);
-        _vertical = Mathf.Clamp(transform.position.y - _lastPosition.x, -1, 1);
+        _horizontal = Mathf.Clamp(patrollingSpots[_randomSpot].position.x - _lastPosition.x, -1, 1);
+        _vertical = Mathf.Clamp(patrollingSpots[_randomSpot].position.y - _lastPosition.y, -1, 1);
         
         if (Vector2.Distance(transform.position, patrollingSpots[_randomSpot].position) < 0.2f)
         {
@@ -44,34 +44,17 @@ public class Patrol : MonoBehaviour
                 _waitTime -= Time.deltaTime;
             }
         }
-    }
-
-    private void FixedUpdate()
-    {
-        _movementDirection = new Vector2(0, 0);
-        Animate(_lastDirectionHorizontal, _lastDirectionVertical);
-        if (_horizontal > 0.5f || _horizontal < -0.5f)
+        
+        if(Math.Abs(patrollingSpots[_randomSpot].position.x - _lastPosition.x) > Math.Abs(patrollingSpots[_randomSpot].position.y - _lastPosition.y))
+            Animate(_horizontal, 0f);
+        else
         {
-            _lastDirectionHorizontal = _horizontal;
-            _lastDirectionVertical = 0;
-            _movementDirection = new Vector2(_horizontal, 0);
-            Animate(_horizontal, 0);
+            Animate(0f, _vertical);
         }
-        else if (_vertical > 0.5f || _vertical < -0.5f)
-        {
-            _lastDirectionVertical = _vertical;
-            _lastDirectionHorizontal = 0;
-            _movementDirection = new Vector2(0, _vertical);
-            Animate(0, _vertical);
-        }
-//        rb.velocity = _movementDirection * speed;
-        speed = Mathf.Clamp(_movementDirection.magnitude, 0.0f, 1.0f);
     }
-
 
     void Animate(float horizontal, float vertical)
     {
-        Debug.Log($"H {horizontal} - V {vertical}");
         anim.SetFloat("Horizontal", horizontal);
         anim.SetFloat("Vertical", vertical);
         anim.SetFloat("Speed", speed);
@@ -79,6 +62,6 @@ public class Patrol : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-//        _waitTime = 0f;
+        _waitTime = 0f;
     }
 }
