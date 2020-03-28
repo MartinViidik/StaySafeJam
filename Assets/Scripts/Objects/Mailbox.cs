@@ -1,4 +1,6 @@
 ﻿
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class Mailbox : MonoBehaviour
@@ -6,6 +8,8 @@ public class Mailbox : MonoBehaviour
     public bool active;
     [SerializeField] SpriteRenderer mailboxSprite;
     [SerializeField] private Dissolve dissolvingSprite;
+
+    public GameObject connectedBuilding;
 
     private void Awake()
     {
@@ -34,6 +38,14 @@ public class Mailbox : MonoBehaviour
     {
         if (dissolvingSprite != null)
             dissolvingSprite.DissolveSprite();
+    }
+
+    public IEnumerator DissolveCutscene()
+    {
+        Debug.Log("test");
+        CameraController.Instance.SwitchTarget(connectedBuilding);
+        yield return new WaitForSeconds(1.25f);
+        Dissolve();
     }
 
     public void SetMailboxColor(Color newColor)

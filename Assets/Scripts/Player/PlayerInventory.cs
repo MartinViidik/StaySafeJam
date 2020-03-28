@@ -38,11 +38,11 @@ public class PlayerInventory : MonoBehaviour
                 DeliveryController.Instance.SelectMailbox();
                 interactableObject = null;
             }
-            if (interactableObject.CompareTag("Mailbox"))
+            if (interactableObject.tag == "Mailbox")
             {
+                interactableObject.GetComponent<Mailbox>().StartCoroutine("DissolveCutscene");
                 SetObjectStatus(false);
                 ShowButtonSprite(false);
-                interactableObject.GetComponent<Mailbox>().Dissolve();
                 interactableObject.GetComponent<Mailbox>().SetStatus(false);
                 PlayerInventory.Instance.ShowButtonSprite(false);
                 interactableObject = null;
