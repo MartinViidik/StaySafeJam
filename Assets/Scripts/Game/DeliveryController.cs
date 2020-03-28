@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 public class DeliveryController : MonoBehaviour
@@ -7,7 +6,8 @@ public class DeliveryController : MonoBehaviour
     private static DeliveryController _instance;
     public static DeliveryController Instance { get { return _instance; } }
 
-    public Mailbox[] mailboxes;
+    public List<Delivery> deliveries = new List<Delivery>();
+    public List<Mailbox> mailboxes = new List<Mailbox>();
 
     private void Awake()
     {
@@ -23,11 +23,26 @@ public class DeliveryController : MonoBehaviour
 
     public Mailbox GetRandomMailbox()
     {
-        int i = Random.Range(0, mailboxes.Length);
+        int i = Random.Range(0, mailboxes.Count);
         return mailboxes[i];
+    }
+
+    public Delivery GetRandomDelivery()
+    {
+        int i = Random.Range(0, deliveries.Count);
+        return deliveries[i];
     }
     public void SelectMailbox()
     {
-        GetRandomMailbox().GetComponent<Mailbox>().SetStatus(true);
+        SetUI();
+        Mailbox mailbox = GetRandomMailbox().GetComponent<Mailbox>();
+        mailboxes.Remove(mailbox);
+        mailbox.SetStatus(true);
+    }
+    public void SetUI()
+    {
+        Delivery delivery = GetRandomDelivery();
+        deliveries.Remove(delivery);
+        ItemPickupUI.Instance.UpdatePickupUI(delivery.title, delivery.content, delivery.image);
     }
 }

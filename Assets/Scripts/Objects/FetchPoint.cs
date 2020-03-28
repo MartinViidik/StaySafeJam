@@ -8,15 +8,27 @@ public class FetchPoint : MonoBehaviour
     {
         playerInventory = player.GetComponent<PlayerInventory>();
     }
-    void OnTriggerEnter2D(Collider2D col)
+    void OnTriggerStay2D(Collider2D col)
     {
         if(col.gameObject == player)
         {
             if (!playerInventory.HasObject())
             {
-                playerInventory.SetObjectStatus(true);
-                DeliveryController.Instance.SelectMailbox();
+                playerInventory.ShowButtonSprite(true);
+                if (Input.GetKeyDown(KeyCode.E))
+                {
+                    playerInventory.SetObjectStatus(true);
+                    playerInventory.ShowButtonSprite(false);
+                    DeliveryController.Instance.SelectMailbox();
+                }
             }
+        }
+    }
+    private void OnTriggerExit2D(Collider2D col)
+    {
+        if(col.gameObject == player)
+        {
+            playerInventory.ShowButtonSprite(false);
         }
     }
 }

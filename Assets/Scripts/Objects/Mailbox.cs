@@ -10,15 +10,29 @@ public class Mailbox : MonoBehaviour
     {
         active = false;
     }
-    void OnTriggerEnter2D(Collider2D col)
+    void OnTriggerStay2D(Collider2D col)
     {
         if (active)
         {
             if (col.gameObject.tag == "Player")
             {
-                SetStatus(false);
-                col.gameObject.GetComponent<PlayerInventory>().SetObjectStatus(false);
+                PlayerInventory.Instance.ShowButtonSprite(true);
+                if (Input.GetKeyDown(KeyCode.E))
+                {
+                    SetStatus(false);
+                    PlayerInventory.Instance.SetObjectStatus(false);
+                    PlayerInventory.Instance.ShowButtonSprite(false);
+
+                }
             }
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D col)
+    {
+        if(col.gameObject.tag == "Player")
+        {
+            col.gameObject.GetComponent<PlayerInventory>().ShowButtonSprite(false);
         }
     }
 

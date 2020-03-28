@@ -5,6 +5,21 @@ using UnityEngine;
 public class PlayerInventory : MonoBehaviour
 {
     private bool hasObject;
+    public GameObject buttonSprite;
+
+    private static PlayerInventory _instance;
+    public static PlayerInventory Instance { get { return _instance; } }
+    private void Awake()
+    {
+        if (_instance != null && _instance != this)
+        {
+            Destroy(this.gameObject);
+        }
+        else
+        {
+            _instance = this;
+        }
+    }
 
     private void Start()
     {
@@ -27,5 +42,9 @@ public class PlayerInventory : MonoBehaviour
         {
             return false;
         }
+    }
+    public void ShowButtonSprite(bool state)
+    {
+        buttonSprite.SetActive(state);
     }
 }
