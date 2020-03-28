@@ -146,18 +146,6 @@ MonoBehaviour:
   timeUntilLevelUpdate: 0.01
   strTag: Light
   lightLevelBar: {fileID: 648972967}
---- !u!114 &88620400
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 88620398}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0fc7a0303c426b4083339c3330e649f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &88620404 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5717619309714666960, guid: 2ca75a38cbbdf784581b0aeca0d671aa,
@@ -1462,6 +1450,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 5717619309714666962, guid: 2ca75a38cbbdf784581b0aeca0d671aa,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5717619309714666974, guid: 2ca75a38cbbdf784581b0aeca0d671aa,
         type: 3}
