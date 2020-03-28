@@ -121,12 +121,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &112854598 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4850369657243731100, guid: 2ca75a38cbbdf784581b0aeca0d671aa,
-    type: 3}
-  m_PrefabInstance: {fileID: 5717619310118710518}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &176992723
 GameObject:
   m_ObjectHideFlags: 0
@@ -333,7 +327,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.56, y: 2.56}
+    oldSize: {x: 2.3703704, y: 2.3703704}
     newSize: {x: 2.56, y: 2.56}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -501,7 +495,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   active: 0
   mailboxSprite: {fileID: 873253702}
-  dissolvingSprite: {fileID: 906967409}
+  dissolvingSprite: {fileID: 315255523}
   connectedBuilding: {fileID: 315255521}
 --- !u!1 &369313778
 GameObject:
@@ -809,20 +803,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 5717619310118710518}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &687790373
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 687790372}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0fc7a0303c426b4083339c3330e649f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  interactableObject: {fileID: 0}
-  buttonSprite: {fileID: 112854598}
 --- !u!4 &687790377 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5717619309714666960, guid: 2ca75a38cbbdf784581b0aeca0d671aa,
@@ -6650,7 +6630,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   active: 0
   mailboxSprite: {fileID: 179569658}
-  dissolvingSprite: {fileID: 906967409}
+  dissolvingSprite: {fileID: 315255523}
   connectedBuilding: {fileID: 315255521}
 --- !u!61 &1506777892
 BoxCollider2D:

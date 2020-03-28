@@ -7,14 +7,14 @@ public class Mailbox : MonoBehaviour
 {
     public bool active;
     [SerializeField] SpriteRenderer mailboxSprite;
-    [SerializeField] private Dissolve dissolvingSprite;
-
+    [SerializeField] private RuinedHouse dissolvingSprite;
     public GameObject connectedBuilding;
 
     private void Awake()
     {
         active = false;
     }
+    
     void OnTriggerEnter2D(Collider2D col)
     {
         if (active)
@@ -37,7 +37,7 @@ public class Mailbox : MonoBehaviour
     public void Dissolve()
     {
         if (dissolvingSprite != null)
-            dissolvingSprite.DissolveSprite();
+            dissolvingSprite.Dissolve();
     }
 
     public IEnumerator DissolveCutscene()

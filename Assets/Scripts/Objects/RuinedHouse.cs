@@ -10,6 +10,7 @@ public class RuinedHouse : MonoBehaviour
     [SerializeField] private Light2D[] lights;
     [SerializeField] private Dissolve dissolvingSprite;
     [SerializeField] private SpriteRenderer spriteRenderer;
+    private bool _ruined = true;
 
     private void Awake()
     {
@@ -19,8 +20,10 @@ public class RuinedHouse : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    public void Dissolve()
     {
+        if(!_ruined) return;
+        _ruined = false;
         dissolvingSprite.DissolveSprite();
         spriteRenderer.DOFade(1, 1f).OnComplete(() =>
         {
@@ -29,5 +32,10 @@ public class RuinedHouse : MonoBehaviour
                 DOTween.To(() => l.intensity, value => l.intensity = value, 1, 1f);
             }
         });
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        Dissolve();
     }
 }
