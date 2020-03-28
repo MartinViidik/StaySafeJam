@@ -8,7 +8,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: 363a489bfbd8c8344bb45972c6ddbaed
-  - enabled: 1
-    path: Assets/Scenes/Arvuti.unity
-    guid: f2abc11f6db3ee542855f282ab2fce00
   m_configObjects: {}
