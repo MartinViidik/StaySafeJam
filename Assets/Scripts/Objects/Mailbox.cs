@@ -17,12 +17,23 @@ public class Mailbox : MonoBehaviour
         {
             if (col.gameObject.CompareTag("Player"))
             {
-                SetStatus(false);
-                col.gameObject.GetComponent<PlayerInventory>().SetObjectStatus(false);
-                if (dissolvingSprite != null)
-                    dissolvingSprite.DissolveSprite();
+                PlayerInventory.Instance.interactableObject = gameObject;
+                PlayerInventory.Instance.ShowButtonSprite(true);
             }
         }
+    }
+    private void OnTriggerExit2D(Collider2D col)
+    {
+        if (col.gameObject.CompareTag("Player"))
+        {
+            PlayerInventory.Instance.interactableObject = null;
+            PlayerInventory.Instance.ShowButtonSprite(false);
+        }
+    }
+    public void Dissolve()
+    {
+        if (dissolvingSprite != null)
+            dissolvingSprite.DissolveSprite();
     }
 
     public void SetMailboxColor(Color newColor)

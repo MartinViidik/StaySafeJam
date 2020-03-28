@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerInventory : MonoBehaviour
 {
     private bool hasObject;
+    public GameObject interactableObject;
     public GameObject buttonSprite;
 
     private static PlayerInventory _instance;
@@ -18,6 +19,34 @@ public class PlayerInventory : MonoBehaviour
         else
         {
             _instance = this;
+        }
+    }
+
+    public void SetCanInteract(bool state)
+    {
+        ShowButtonSprite(state);
+    }
+
+    private void Update()
+    {
+        if(interactableObject != null && Input.GetKeyDown(KeyCode.E))
+        {
+            if (interactableObject.CompareTag("FetchPoint"))
+            {
+                SetObjectStatus(true);
+                ShowButtonSprite(false);
+                DeliveryController.Instance.SelectMailbox();
+                interactableObject = null;
+            }
+            if (interactableObject.CompareTag("Mailbox"))
+            {
+                SetObjectStatus(false);
+                ShowButtonSprite(false);
+                interactableObject.GetComponent<Mailbox>().Dissolve();
+                interactableObject.GetComponent<Mailbox>().SetStatus(false);
+                PlayerInventory.Instance.ShowButtonSprite(false);
+                interactableObject = null;
+            }
         }
     }
 
