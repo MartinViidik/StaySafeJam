@@ -7,6 +7,7 @@ public class PlayerInventory : MonoBehaviour
     private bool hasObject;
     public GameObject interactableObject;
     public GameObject buttonSprite;
+    public bool lastMail;
 
     private static PlayerInventory _instance;
     public static PlayerInventory Instance { get { return _instance; } }

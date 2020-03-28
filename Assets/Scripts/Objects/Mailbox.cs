@@ -38,14 +38,22 @@ public class Mailbox : MonoBehaviour
     {
         if (dissolvingSprite != null)
             dissolvingSprite.Dissolve();
+        if (PlayerInventory.Instance.lastMail)
+        {
+            FadeImage.Instance.FadeEnding();
+        }
     }
 
     public IEnumerator DissolveCutscene()
     {
-        Debug.Log("test");
         CameraController.Instance.SwitchTarget(connectedBuilding);
         yield return new WaitForSeconds(1.25f);
         Dissolve();
+        if (PlayerInventory.Instance.lastMail)
+        {
+            yield return new WaitForSeconds(3.5f);
+            FadeImage.Instance.FadeEnding();
+        }
     }
 
     public void SetMailboxColor(Color newColor)

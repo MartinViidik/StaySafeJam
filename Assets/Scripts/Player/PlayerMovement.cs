@@ -64,7 +64,6 @@ public class PlayerMovement : MonoBehaviour
             rb.velocity = movementDirection * speed;
             movementSpeed = Mathf.Clamp(movementDirection.magnitude, 0.0f, 1.0f);
             float lastDir = transform.eulerAngles.y;
-            Debug.Log(lastDir);
         }
     }
 
