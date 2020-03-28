@@ -12,17 +12,22 @@ public class RuinedHouse : MonoBehaviour
     [SerializeField] private SpriteRenderer spriteRenderer;
     private bool _ruined = true;
 
+    private AudioSource ac;
+    [SerializeField] private AudioClip[] restoreSFX;
+
     private void Awake()
     {
         foreach (var l in lights)
         {
             l.intensity = 0f;
         }
+        ac = GetComponent<AudioSource>();
     }
 
     public void Dissolve()
     {
         if(!_ruined) return;
+        PlaySound();
         _ruined = false;
         dissolvingSprite.DissolveSprite();
         spriteRenderer.DOFade(1, 1f).OnComplete(() =>
@@ -37,5 +42,11 @@ public class RuinedHouse : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         Dissolve();
+    }
+
+    void PlaySound()
+    {
+        AudioClip sound = restoreSFX[UnityEngine.Random.Range(0, restoreSFX.Length)];
+        ac.PlayOneShot(sound);
     }
 }
