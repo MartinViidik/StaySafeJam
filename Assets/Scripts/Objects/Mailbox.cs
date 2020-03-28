@@ -5,6 +5,7 @@ public class Mailbox : MonoBehaviour
 {
     public bool active;
     [SerializeField] SpriteRenderer mailboxSprite;
+    [SerializeField] private Dissolve dissolvingSprite;
 
     private void Awake()
     {
@@ -14,10 +15,12 @@ public class Mailbox : MonoBehaviour
     {
         if (active)
         {
-            if (col.gameObject.tag == "Player")
+            if (col.gameObject.CompareTag("Player"))
             {
                 SetStatus(false);
                 col.gameObject.GetComponent<PlayerInventory>().SetObjectStatus(false);
+                if (dissolvingSprite != null)
+                    dissolvingSprite.DissolveSprite();
             }
         }
     }
