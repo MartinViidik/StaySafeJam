@@ -10,6 +10,7 @@ public class LightLevel : MonoBehaviour
     public float timeBetweenLevelUpdate = 1f;
     public float timeUntilLevelUpdate = 1f;
     public string strTag = "Light";
+    [SerializeField] private LightLevelBar lightLevelBar; 
 
     // Start is called before the first frame update
     void Start()
@@ -52,6 +53,7 @@ public class LightLevel : MonoBehaviour
             if (lightLevel < 0)
                 lightLevel = 0;
 
+            lightLevelBar.setSize(lightLevel/maxLightLevel);
             timeUntilLevelUpdate = timeBetweenLevelUpdate;
         }
     }
