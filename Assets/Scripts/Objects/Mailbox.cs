@@ -5,34 +5,23 @@ public class Mailbox : MonoBehaviour
 {
     public bool active;
     [SerializeField] SpriteRenderer mailboxSprite;
+    [SerializeField] private Dissolve dissolvingSprite;
 
     private void Awake()
     {
         active = false;
     }
-    void OnTriggerStay2D(Collider2D col)
+    void OnTriggerEnter2D(Collider2D col)
     {
         if (active)
         {
-            if (col.gameObject.tag == "Player")
+            if (col.gameObject.CompareTag("Player"))
             {
-                PlayerInventory.Instance.ShowButtonSprite(true);
-                if (Input.GetKeyDown(KeyCode.E))
-                {
-                    SetStatus(false);
-                    PlayerInventory.Instance.SetObjectStatus(false);
-                    PlayerInventory.Instance.ShowButtonSprite(false);
-
-                }
+                SetStatus(false);
+                col.gameObject.GetComponent<PlayerInventory>().SetObjectStatus(false);
+                if (dissolvingSprite != null)
+                    dissolvingSprite.DissolveSprite();
             }
-        }
-    }
-
-    private void OnTriggerExit2D(Collider2D col)
-    {
-        if(col.gameObject.tag == "Player")
-        {
-            col.gameObject.GetComponent<PlayerInventory>().ShowButtonSprite(false);
         }
     }
 
