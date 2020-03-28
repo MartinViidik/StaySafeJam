@@ -441,7 +441,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.35
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -913,7 +913,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 687790372}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 854c63a5917456b4eaa58e54fb5fb79b, type: 3}
   m_Name: 
@@ -6574,8 +6574,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deliveries:
   - {fileID: 4326881130431460959, guid: d7b63ae56dcf1624a8610d395cb898ac, type: 3}
+  - {fileID: 1746028827317674190, guid: 9ed6998fb95879640990e5fa30909a2e, type: 3}
   mailboxes:
   - {fileID: 319204801}
+  - {fileID: 1506777891}
 --- !u!1 &1464584063
 GameObject:
   m_ObjectHideFlags: 0
