@@ -54,6 +54,7 @@ public class Mailbox : MonoBehaviour
             yield return new WaitForSeconds(3.5f);
             FadeImage.Instance.FadeEnding();
         }
+        RainController.Instance.ReduceRainLevel();
     }
 
     public void SetMailboxColor(Color newColor)
