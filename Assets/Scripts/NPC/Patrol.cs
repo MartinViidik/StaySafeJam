@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -8,7 +9,9 @@ public class Patrol : MonoBehaviour
     [SerializeField] private Transform[] patrollingSpots;
     [SerializeField] private float startWait;
     [SerializeField] private Animator anim;
-    [SerializeField] private Rigidbody2D rb;
+    [SerializeField] private SpriteRenderer spriteRenderer;
+    [SerializeField] private float dissolvingTime;
+    [SerializeField] private Color dissolvingColor;
     private Vector2 _movementDirection;
     private int _randomSpot;
     private float _waitTime;
@@ -23,6 +26,8 @@ public class Patrol : MonoBehaviour
         _waitTime = startWait;
         _randomSpot = Random.Range(0, patrollingSpots.Length);
         _lastPosition = transform.position;
+        spriteRenderer.material.SetColor("_DissolveColor", dissolvingColor);
+
     }
 
     private void Update()
@@ -57,15 +62,36 @@ public class Patrol : MonoBehaviour
         transform.position = vector;
     }
 
-    void Animate(float horizontal, float vertical)
+    private void Animate(float horizontal, float vertical)
     {
+        anim.SetBool("Walking", true);
         anim.SetFloat("Horizontal", horizontal);
         anim.SetFloat("Vertical", vertical);
-        anim.SetFloat("Speed", speed);
     }
 
     private void OnCollisionEnter2D(Collision2D other)
     {
         _waitTime = 0f;
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            StartCoroutine(CoDissolving());
+        }
+    }
+    
+    private IEnumerator CoDissolving()
+    {
+        var currentTime = 0f;
+
+        while (currentTime < dissolvingTime)
+        {
+            currentTime += Time.deltaTime;
+            spriteRenderer.material.SetFloat("_DissolveAmount", currentTime / dissolvingTime);
+            yield return new WaitForEndOfFrame();
+        }
+        Destroy(gameObject);
     }
 }

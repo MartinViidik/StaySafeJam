@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.Rendering;
@@ -22,6 +21,7 @@ public class LightLevel : MonoBehaviour
     public float timeUntilGameOver;
     bool dying;
     private bool _dead;
+    [SerializeField] private float ghostLight;
 
     public AudioSource heavyRain;
     public AudioSource lightRain;
@@ -32,6 +32,9 @@ public class LightLevel : MonoBehaviour
         {
             inLight = true;
         }
+        
+        if(collision.CompareTag("Ghost"))
+            lightLevel += ghostLight;
     }
 
     private void OnTriggerExit2D(Collider2D collision)

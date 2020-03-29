@@ -1,0 +1,1448 @@
+fileFormatVersion: 2
+guid: 24d7996d517b7554c996e6d3626df40b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5438371712980235596
+    second: NPCSAni_0
+  - first:
+      213: 2212331228645162457
+    second: NPCSAni_1
+  - first:
+      213: -3375504217624330570
+    second: NPCSAni_2
+  - first:
+      213: -3702738346077883809
+    second: NPCSAni_3
+  - first:
+      213: -3068883706201470439
+    second: NPCSAni_4
+  - first:
+      213: -8978429428245113823
+    second: NPCSAni_5
+  - first:
+      213: -6845103561246134262
+    second: NPCSAni_6
+  - first:
+      213: 2211685898792763484
+    second: NPCSAni_7
+  - first:
+      213: 8994709831696977053
+    second: NPCSAni_8
+  - first:
+      213: 5399629766168213228
+    second: NPCSAni_9
+  - first:
+      213: -6192065053957193553
+    second: NPCSAni_10
+  - first:
+      213: -2215970974137110656
+    second: NPCSAni_11
+  - first:
+      213: -8652477135196689696
+    second: NPCSAni_12
+  - first:
+      213: 2165904686761981117
+    second: NPCSAni_13
+  - first:
+      213: -7312935783837496418
+    second: NPCSAni_14
+  - first:
+      213: 2394324707685958274
+    second: NPCSAni_15
+  - first:
+      213: 349804848439532158
+    second: NPCSAni_16
+  - first:
+      213: -1891363272973721831
+    second: NPCSAni_17
+  - first:
+      213: -8555959923260955737
+    second: NPCSAni_18
+  - first:
+      213: -5336846610595562984
+    second: NPCSAni_19
+  - first:
+      213: 883867307179028665
+    second: NPCSAni_20
+  - first:
+      213: -7775984435753723569
+    second: NPCSAni_21
+  - first:
+      213: -4464045463763165173
+    second: NPCSAni_22
+  - first:
+      213: -5848698913274734307
+    second: NPCSAni_23
+  - first:
+      213: 3542330806408139709
+    second: NPCSAni_24
+  - first:
+      213: -5212413667225365811
+    second: NPCSAni_25
+  - first:
+      213: 5840159618024899553
+    second: NPCSAni_26
+  - first:
+      213: -6886772440296482730
+    second: NPCSAni_27
+  - first:
+      213: -7402923766049581389
+    second: NPCSAni_28
+  - first:
+      213: 1962337115840522310
+    second: NPCSAni_29
+  - first:
+      213: -9100228771883675299
+    second: NPCSAni_30
+  - first:
+      213: 2746344833987556248
+    second: NPCSAni_31
+  - first:
+      213: -4916345976876855758
+    second: NPCSAni_32
+  - first:
+      213: -350324900293490934
+    second: NPCSAni_33
+  - first:
+      213: -4375065164488915463
+    second: NPCSAni_34
+  - first:
+      213: -7186695140684944264
+    second: NPCSAni_35
+  - first:
+      213: -1080875463026815928
+    second: NPCSAni_36
+  - first:
+      213: -6073477567970730895
+    second: NPCSAni_37
+  - first:
+      213: -8817915483687479241
+    second: NPCSAni_38
+  - first:
+      213: 7412343392886059066
+    second: NPCSAni_39
+  - first:
+      213: 702162221786528744
+    second: NPCSAni_40
+  - first:
+      213: -8455150248661282441
+    second: NPCSAni_41
+  - first:
+      213: -4539798962729929459
+    second: NPCSAni_42
+  - first:
+      213: -6512304082687125046
+    second: NPCSAni_43
+  - first:
+      213: 2376219075601905571
+    second: NPCSAni_44
+  - first:
+      213: -5678015938205093020
+    second: NPCSAni_45
+  - first:
+      213: 816901728592880143
+    second: NPCSAni_46
+  - first:
+      213: 50890959738539920
+    second: NPCSAni_47
+  - first:
+      213: -1809086529335024235
+    second: NPCSAni_48
+  - first:
+      213: 1081862960511356100
+    second: NPCSAni_49
+  - first:
+      213: -2275670800257206774
+    second: NPCSAni_50
+  - first:
+      213: -1630552786800507126
+    second: NPCSAni_51
+  - first:
+      213: 8502650085391815557
+    second: NPCSAni_52
+  - first:
+      213: 6252106046103908282
+    second: NPCSAni_53
+  - first:
+      213: -3900492773288776613
+    second: NPCSAni_54
+  - first:
+      213: 2273158266249317639
+    second: NPCSAni_55
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NPCSAni_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 290
+        width: 29
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4538bc524af87b40800000000000000
+      internalID: 5438371712980235596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCSAni_1
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 290
+        width: 29
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ddf5e0f787c3be10800000000000000
+      internalID: 2212331228645162457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCSAni_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 290
+        width: 29
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be3baa5cccc721d0800000000000000
+      internalID: -3375504217624330570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCSAni_3
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 290
+        width: 29
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f527fc9971b3d9cc0800000000000000
+      internalID: -3702738346077883809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCSAni_4
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 290
+        width: 29
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a80e267822965d0800000000000000
+      internalID: -3068883706201470439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCSAni_5
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 290
+        width: 29
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12459883106366380800000000000000
+      internalID: -8978429428245113823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCSAni_6
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 290
+        width: 29
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a00b925f39e4101a0800000000000000
+      internalID: -6845103561246134262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCSAni_7
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 290
+        width: 29
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5088406b9c71be10800000000000000
+      internalID: 2211685898792763484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCSAni_8
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 290
+        width: 29
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9c03089fe0a3dc70800000000000000
+      internalID: 8994709831696977053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCSAni_9
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 290
+        width: 29
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce6f413f9a65fea40800000000000000
+      internalID: 5399629766168213228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCSAni_10
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 290
+        width: 29
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa085c0f3ad511aa0800000000000000
+      internalID: -6192065053957193553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCSAni_11
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 290
+        width: 29
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f2bf5c32a4f31e0800000000000000
+      internalID: -2215970974137110656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCSAni_12
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 290
+        width: 29
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea696963e93ce780800000000000000
+      internalID: -8652477135196689696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCSAni_13
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 290
+        width: 29
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db43dcf46d6de0e10800000000000000
+      internalID: 2165904686761981117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCSAni_14
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 290
+        width: 29
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9b8f1376ab338a90800000000000000
+      internalID: -7312935783837496418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCSAni_15
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 290
+        width: 29
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 282009ec2a95a3120800000000000000
+      internalID: 2394324707685958274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCSAni_16
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 194
+        width: 29
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a92f308a1cad400800000000000000
+      internalID: 349804848439532158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCSAni_17
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 194
+        width: 29
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91f5e25cf1780c5e0800000000000000
+      internalID: -1891363272973721831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCSAni_18
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 194
+        width: 29
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a36d8df7cf134980800000000000000
+      internalID: -8555959923260955737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCSAni_19
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 194
+        width: 29
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81a34b29846bfe5b0800000000000000
+      internalID: -5336846610595562984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCSAni_20
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 194
+        width: 29
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b0bcf802a0244c00800000000000000
+      internalID: 883867307179028665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCSAni_21
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 194
+        width: 29
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f49dee7ca57261490800000000000000
+      internalID: -7775984435753723569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCSAni_22
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 194
+        width: 29
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b00e33f5d468c02c0800000000000000
+      internalID: -4464045463763165173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCSAni_23
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 194
+        width: 29
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d19db0c735f35dea0800000000000000
+      internalID: -5848698913274734307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCSAni_24
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 98
+        width: 30
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db351e0b913e82130800000000000000
+      internalID: 3542330806408139709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCSAni_25
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 98
+        width: 30
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc214aed269c9a7b0800000000000000
+      internalID: -5212413667225365811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCSAni_26
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 98
+        width: 30
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e384f7ea3a6c0150800000000000000
+      internalID: 5840159618024899553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCSAni_27
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 98
+        width: 30
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6589d2704f44d60a0800000000000000
+      internalID: -6886772440296482730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCSAni_28
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 98
+        width: 30
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b65151ae08834990800000000000000
+      internalID: -7402923766049581389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCSAni_29
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 98
+        width: 30
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6482d3fb53f9b3b10800000000000000
+      internalID: 1962337115840522310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCSAni_30
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 98
+        width: 30
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d519515a52e75b180800000000000000
+      internalID: -9100228771883675299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCSAni_31
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 98
+        width: 30
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 893be84631afc1620800000000000000
+      internalID: 2746344833987556248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCSAni_32
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 98
+        width: 29
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23e8557c161a5cbb0800000000000000
+      internalID: -4916345976876855758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCSAni_33
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 98
+        width: 29
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a07480afb55632bf0800000000000000
+      internalID: -350324900293490934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCSAni_34
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 98
+        width: 29
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f5c379b965a843c0800000000000000
+      internalID: -4375065164488915463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCSAni_35
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 98
+        width: 29
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ca276a8dab34c90800000000000000
+      internalID: -7186695140684944264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCSAni_36
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 98
+        width: 29
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84cc9db3e75fff0f0800000000000000
+      internalID: -1080875463026815928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCSAni_37
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 98
+        width: 29
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c1dc1a45ca6bba0800000000000000
+      internalID: -6073477567970730895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCSAni_38
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 98
+        width: 29
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 738146f369870a580800000000000000
+      internalID: -8817915483687479241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCSAni_39
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 98
+        width: 29
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a30ff262b0fedd660800000000000000
+      internalID: 7412343392886059066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCSAni_40
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 17
+        width: 30
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ebf84c02d49eb900800000000000000
+      internalID: 702162221786528744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCSAni_41
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 18
+        width: 30
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7711df965a549aa80800000000000000
+      internalID: -8455150248661282441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCSAni_42
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 18
+        width: 30
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d05bbc275e46ff0c0800000000000000
+      internalID: -4539798962729929459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCSAni_43
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 18
+        width: 30
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac99b12c0f5af95a0800000000000000
+      internalID: -6512304082687125046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCSAni_44
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 18
+        width: 30
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a732c5d8a60af020800000000000000
+      internalID: 2376219075601905571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCSAni_45
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 18
+        width: 30
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 463774e6692a331b0800000000000000
+      internalID: -5678015938205093020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCSAni_46
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 18
+        width: 30
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f026e254bc7365b00800000000000000
+      internalID: 816901728592880143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCSAni_47
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 18
+        width: 30
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f8e79ee0dc4b000800000000000000
+      internalID: 50890959738539920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCSAni_48
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 18
+        width: 29
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 595aa03f265d4e6e0800000000000000
+      internalID: -1809086529335024235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCSAni_49
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 18
+        width: 29
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc8ee071ac830f00800000000000000
+      internalID: 1081862960511356100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCSAni_50
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 18
+        width: 29
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a06b0f4d6713b60e0800000000000000
+      internalID: -2275670800257206774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCSAni_51
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 18
+        width: 29
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a078b3321ec1f59e0800000000000000
+      internalID: -1630552786800507126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCSAni_52
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 18
+        width: 29
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5835935243b7ff570800000000000000
+      internalID: 8502650085391815557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCSAni_53
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 18
+        width: 29
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf6818e251f3c650800000000000000
+      internalID: 6252106046103908282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCSAni_54
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 18
+        width: 29
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5ce4270d7aaed9c0800000000000000
+      internalID: -3900492773288776613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPCSAni_55
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 18
+        width: 29
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70d88024661eb8f10800000000000000
+      internalID: 2273158266249317639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
