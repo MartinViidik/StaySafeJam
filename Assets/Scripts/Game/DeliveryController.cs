@@ -36,17 +36,17 @@ public class DeliveryController : MonoBehaviour
     {
         SetUI();
         Mailbox mailbox = GetRandomMailbox().GetComponent<Mailbox>();
+        mailbox.SetStatus(true);
         mailboxes.Remove(mailbox);
         if(mailboxes.Count == 0)
         {
             PlayerInventory.Instance.lastMail = true;
         }
-        mailbox.SetStatus(true);
     }
     public void SetUI()
     {
         Delivery delivery = GetRandomDelivery();
         deliveries.Remove(delivery);
-        ItemPickupUI.Instance.UpdatePickupUI(delivery.title, delivery.content, delivery.image);
+        //ItemPickupUI.Instance.UpdatePickupUI(delivery.title, delivery.content, delivery.image);
     }
 }
