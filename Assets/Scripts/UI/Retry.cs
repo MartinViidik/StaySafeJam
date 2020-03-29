@@ -19,6 +19,6 @@ public class Retry : MonoBehaviour
 
     public void RetryButton ()
     {
-        SceneManager.LoadScene("OliverTCX");
+        SceneManager.LoadScene("Arvuti");
     }
 }
