@@ -108,7 +108,6 @@ public class PlayerMovement : MonoBehaviour
             if (dead)
             {
                 Animate(0, 0);
-                anim.SetTrigger("Dead");
             }
         }
     }

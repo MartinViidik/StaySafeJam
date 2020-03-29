@@ -91,11 +91,11 @@ public class LightLevel : MonoBehaviour
     {
         _dead = true;
         PlayerMovement.Instance.dead = true;
-        PlayerMovement.Instance.SetMovementEnabled(false);
+        playerAnimator.SetBool("Walking", false);
         playerAnimator.SetTrigger("Dead");
+        PlayerMovement.Instance.SetMovementEnabled(false);
         ColorAdjustments colorAdjustments;
         Camera.main.GetComponent<Volume>().profile.TryGet(out colorAdjustments);
-//        colorAdjustments.saturation.value = 0f;
         DOTween.To(() => colorAdjustments.saturation.value, value => colorAdjustments.saturation.value = value, -100f, 1.5f);
 
         yield return new WaitForSeconds(3f);
