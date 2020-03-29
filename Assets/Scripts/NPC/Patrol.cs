@@ -51,6 +51,10 @@ public class Patrol : MonoBehaviour
         {
             Animate(0f, _vertical);
         }
+
+        var vector = transform.position;
+        vector.z = -1f;
+        transform.position = vector;
     }
 
     void Animate(float horizontal, float vertical)
