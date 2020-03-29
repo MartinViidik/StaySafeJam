@@ -23,6 +23,9 @@ public class LightLevel : MonoBehaviour
     bool dying;
     private bool _dead;
 
+    public AudioSource heavyRain;
+    public AudioSource lightRain;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag(strTag))
@@ -67,6 +70,7 @@ public class LightLevel : MonoBehaviour
 
                 lightLevelBar.setSize(lightLevel / maxLightLevel);
                 timeUntilLevelUpdate = timeBetweenLevelUpdate;
+                ModifyRainSFX();
             }
 
             //Switch to GameOver
@@ -100,5 +104,17 @@ public class LightLevel : MonoBehaviour
         levelToLoad = GameOver;
         animator.SetTrigger("FadeOut");
         dying = true;
+    }
+
+    void ModifyRainSFX()
+    {
+        if (inLight)
+        {
+            heavyRain.volume -= 0.001f;
+            lightRain.volume += 0.001f;
+        } else {
+            heavyRain.volume += 0.001f;
+            lightRain.volume -= 0.001f;
+        }
     }
 }
