@@ -20,6 +20,7 @@ public class Patrol : MonoBehaviour
     private float _horizontal;
     private float _vertical;
     private Vector2 _lastPosition;
+    private Vector2 _startPosition;
 
     private void Start()
     {
@@ -92,6 +93,6 @@ public class Patrol : MonoBehaviour
             spriteRenderer.material.SetFloat("_DissolveAmount", currentTime / dissolvingTime);
             yield return new WaitForEndOfFrame();
         }
-        Destroy(gameObject);
+        gameObject.SetActive(false);
     }
 }
