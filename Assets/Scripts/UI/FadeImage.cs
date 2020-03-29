@@ -1,6 +1,7 @@
 ﻿
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class FadeImage : MonoBehaviour
 {
@@ -24,6 +25,13 @@ public class FadeImage : MonoBehaviour
     public void FadeEnding()
     {
         anim.SetBool("Ending", true);
+        StartCoroutine("ReturnToMenu");
+    }
+    
+    public IEnumerator ReturnToMenu()
+    {
+        yield return new WaitForSeconds(4);
+        SceneManager.LoadScene("Menu");
     }
 
     public void FadeDead()
