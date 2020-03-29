@@ -26,6 +26,6 @@ public class RainController : MonoBehaviour
 
     public void ReduceRainLevel()
     {
-        emissionModule.rateOverTime = initialAmount / 5;
+        emissionModule.rateOverTime = initialAmount / 2;
     }
 }
