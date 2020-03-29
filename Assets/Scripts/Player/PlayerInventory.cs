@@ -39,7 +39,7 @@ public class PlayerInventory : MonoBehaviour
                 DeliveryController.Instance.SelectMailbox();
                 interactableObject = null;
             }
-            if (interactableObject.tag == "Mailbox")
+            else if (interactableObject.tag == "Mailbox")
             {
                 interactableObject.GetComponent<Mailbox>().StartCoroutine("DissolveCutscene");
                 SetObjectStatus(false);

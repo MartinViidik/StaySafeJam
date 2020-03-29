@@ -1,0 +1,896 @@
+fileFormatVersion: 2
+guid: 3fb2c3085127b314da4fb87370df46f9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2810262820887103045
+    second: MainCharaSpriteAni_v2_0
+  - first:
+      213: -7295643215717929453
+    second: MainCharaSpriteAni_v2_1
+  - first:
+      213: 5803703965232125499
+    second: MainCharaSpriteAni_v2_2
+  - first:
+      213: 8975016572591617974
+    second: MainCharaSpriteAni_v2_3
+  - first:
+      213: -3982009413156097186
+    second: MainCharaSpriteAni_v2_4
+  - first:
+      213: 5914627238071046271
+    second: MainCharaSpriteAni_v2_5
+  - first:
+      213: 3752845945002665694
+    second: MainCharaSpriteAni_v2_6
+  - first:
+      213: 6598160872869343087
+    second: MainCharaSpriteAni_v2_7
+  - first:
+      213: 5041573367871195914
+    second: MainCharaSpriteAni_v2_8
+  - first:
+      213: 230698938692426032
+    second: MainCharaSpriteAni_v2_9
+  - first:
+      213: 4311933942697524081
+    second: MainCharaSpriteAni_v2_10
+  - first:
+      213: -2432299064098417569
+    second: MainCharaSpriteAni_v2_11
+  - first:
+      213: 2225003009473571328
+    second: MainCharaSpriteAni_v2_12
+  - first:
+      213: 5617245964598722891
+    second: MainCharaSpriteAni_v2_13
+  - first:
+      213: -4092943714668148922
+    second: MainCharaSpriteAni_v2_14
+  - first:
+      213: -7368872961079256132
+    second: MainCharaSpriteAni_v2_15
+  - first:
+      213: 1100109943643224425
+    second: MainCharaSpriteAni_v2_16
+  - first:
+      213: -1030969164375209016
+    second: MainCharaSpriteAni_v2_17
+  - first:
+      213: 3486248499936993967
+    second: MainCharaSpriteAni_v2_18
+  - first:
+      213: -7992115770484608949
+    second: MainCharaSpriteAni_v2_19
+  - first:
+      213: -3739648373335000969
+    second: MainCharaSpriteAni_v2_20
+  - first:
+      213: 5488020105682922456
+    second: MainCharaSpriteAni_v2_21
+  - first:
+      213: -2962750466311283465
+    second: MainCharaSpriteAni_v2_22
+  - first:
+      213: 281006384358576942
+    second: MainCharaSpriteAni_v2_23
+  - first:
+      213: -6063099316177855958
+    second: MainCharaSpriteAni_v2_24
+  - first:
+      213: 1427420579449003133
+    second: MainCharaSpriteAni_v2_25
+  - first:
+      213: 2059263474826713169
+    second: MainCharaSpriteAni_v2_26
+  - first:
+      213: 987668773326801650
+    second: MainCharaSpriteAni_v2_27
+  - first:
+      213: -112698716205905750
+    second: MainCharaSpriteAni_v2_28
+  - first:
+      213: 7143177386153579710
+    second: MainCharaSpriteAni_v2_29
+  - first:
+      213: 108779631606531290
+    second: MainCharaSpriteAni_v2_30
+  - first:
+      213: 7776417695642763964
+    second: MainCharaSpriteAni_v2_31
+  - first:
+      213: 1600204039650884811
+    second: MainCharaSpriteAni_v2_32
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MainCharaSpriteAni_v2_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 390
+        width: 33
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 546867c652f000720800000000000000
+      internalID: 2810262820887103045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAni_v2_1
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 390
+        width: 33
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ee427362ba0ca90800000000000000
+      internalID: -7295643215717929453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAni_v2_2
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 390
+        width: 33
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b36df2dc106ea8050800000000000000
+      internalID: 5803703965232125499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAni_v2_3
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 390
+        width: 33
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b73196650aad8c70800000000000000
+      internalID: 8975016572591617974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAni_v2_4
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 390
+        width: 33
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e53b19c498f0db8c0800000000000000
+      internalID: -3982009413156097186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAni_v2_5
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 390
+        width: 33
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f701310d22af41250800000000000000
+      internalID: 5914627238071046271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAni_v2_6
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 390
+        width: 33
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed626a8e089c41430800000000000000
+      internalID: 3752845945002665694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAni_v2_7
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 390
+        width: 33
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6f2246fa50619b50800000000000000
+      internalID: 6598160872869343087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAni_v2_8
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 294
+        width: 33
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0b4805444447f540800000000000000
+      internalID: 5041573367871195914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAni_v2_9
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 294
+        width: 33
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03952d2667b933300800000000000000
+      internalID: 230698938692426032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAni_v2_10
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 294
+        width: 33
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17b7f65431117db30800000000000000
+      internalID: 4311933942697524081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAni_v2_11
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 294
+        width: 33
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5416e853ecbe3ed0800000000000000
+      internalID: -2432299064098417569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAni_v2_12
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 200
+        width: 30
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ae8d3d27cc0ee10800000000000000
+      internalID: 2225003009473571328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAni_v2_13
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 200
+        width: 30
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4147ef717774fd40800000000000000
+      internalID: 5617245964598722891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAni_v2_14
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 200
+        width: 30
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64789897061f237c0800000000000000
+      internalID: -4092943714668148922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAni_v2_15
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 200
+        width: 30
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbbd3e775118cb990800000000000000
+      internalID: -7368872961079256132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAni_v2_16
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 200
+        width: 30
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 969bab44a20644f00800000000000000
+      internalID: 1100109943643224425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAni_v2_17
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 200
+        width: 30
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cbc80fd10341b1f0800000000000000
+      internalID: -1030969164375209016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAni_v2_18
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 200
+        width: 30
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa2ab7d2a84a16030800000000000000
+      internalID: 3486248499936993967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAni_v2_19
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 200
+        width: 30
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b40b7700d0d461190800000000000000
+      internalID: -7992115770484608949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAni_v2_20
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 108
+        width: 30
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 778ff723e991a1cc0800000000000000
+      internalID: -3739648373335000969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAni_v2_21
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 108
+        width: 30
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dbae67953d592c40800000000000000
+      internalID: 5488020105682922456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAni_v2_22
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 108
+        width: 30
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fc9461f52232e6d0800000000000000
+      internalID: -2962750466311283465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAni_v2_23
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 108
+        width: 30
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e235f4751d556e300800000000000000
+      internalID: 281006384358576942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAni_v2_24
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 108
+        width: 30
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a1e4dab4b8bdba0800000000000000
+      internalID: -6063099316177855958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAni_v2_25
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 108
+        width: 30
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7cd32744773fc310800000000000000
+      internalID: 1427420579449003133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAni_v2_26
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 108
+        width: 30
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1589bfb4839f39c10800000000000000
+      internalID: 2059263474826713169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAni_v2_27
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 108
+        width: 30
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fac3e53487e4bd00800000000000000
+      internalID: 987668773326801650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAni_v2_28
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 6
+        width: 33
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa887ed5d1d9f6ef0800000000000000
+      internalID: -112698716205905750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAni_v2_29
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 6
+        width: 33
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb4994d8cf9a12360800000000000000
+      internalID: 7143177386153579710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAni_v2_30
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 6
+        width: 33
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad484b4af76728100800000000000000
+      internalID: 108779631606531290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAni_v2_31
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 6
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb249d561b26beb60800000000000000
+      internalID: 7776417695642763964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAni_v2_32
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 6
+        width: 33
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc39878811153610800000000000000
+      internalID: 1600204039650884811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
