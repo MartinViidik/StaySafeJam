@@ -47,6 +47,6 @@ public class DeliveryController : MonoBehaviour
     {
         Delivery delivery = GetRandomDelivery();
         deliveries.Remove(delivery);
-        //ItemPickupUI.Instance.UpdatePickupUI(delivery.title, delivery.content, delivery.image);
+        ItemPickupUI.Instance.UpdatePickupUI(delivery.title, delivery.content, delivery.image);
     }
 }

@@ -44,5 +44,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   image: {fileID: 82707731993968007, guid: 8ffdd1e87ab687e4c808f87eb1b03fc1, type: 3}
-  title: TEST
-  content: DONT GO OUTSIDE
+  title: Medicine
+  content: Helps to surpess chronic pain which the person is suffering from

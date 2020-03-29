@@ -6,12 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/OliverTCX.unity
-    guid: 5f67b916ad014f942aa341f91c386d31
+    path: Assets/Scenes/Menu.unity
+    guid: 363a489bfbd8c8344bb45972c6ddbaed
+  - enabled: 1
+    path: Assets/Scenes/Arvuti.unity
+    guid: cb9c817d0c6a22045aa9fe659ae27c93
   - enabled: 1
     path: Assets/Scenes/GameOver.unity
     guid: a2595ecb752d80e4a9df32ce9c78b686
-  - enabled: 1
-    path: Assets/Scenes/Menu.unity
-    guid: 363a489bfbd8c8344bb45972c6ddbaed
   m_configObjects: {}
