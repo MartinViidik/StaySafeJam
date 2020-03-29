@@ -10,6 +10,7 @@ public class RuinedHouse : MonoBehaviour
     [SerializeField] private Light2D[] lights;
     [SerializeField] private Dissolve dissolvingSprite;
     [SerializeField] private SpriteRenderer spriteRenderer;
+    [SerializeField] private AudioSource loopSound;
     private bool _ruined = true;
     public AudioSource natureSound;
     public AudioSource spookSound;
@@ -37,6 +38,7 @@ public class RuinedHouse : MonoBehaviour
         {
             natureSound.volume = 1;
             spookSound.volume = 0;
+            loopSound.Play();
             foreach (var l in lights)
             {
                 l.gameObject.tag = "Light";
