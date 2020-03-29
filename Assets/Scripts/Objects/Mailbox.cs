@@ -51,6 +51,7 @@ public class Mailbox : MonoBehaviour
         player.GetComponent<LightLevel>().active = false;
         GuideArrow.Instance.SetArrowState(false);
         CameraController.Instance.SwitchTarget(connectedBuilding);
+        player.GetComponent<PlayerMovement>().SetMovementEnabled(false);
         yield return new WaitForSeconds(1.25f);
         Dissolve();
         if (PlayerInventory.Instance.lastMail)
@@ -62,6 +63,7 @@ public class Mailbox : MonoBehaviour
         yield return new WaitForSeconds(2.25f);
         player.GetComponent<LightLevel>().active = true;
         player.GetComponent<LightLevel>().inLight = true;
+        PlayerMovement.Instance.SetMovementEnabled(enabled);
     }
 
     public void SetMailboxColor(Color newColor)

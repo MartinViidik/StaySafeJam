@@ -98,6 +98,7 @@ public class PlayerMovement : MonoBehaviour
     public void SetMovementEnabled(bool state)
     {
         enabled = state;
+        anim.SetBool("Walking", false);
         if (!state)
         {
             horizontal = 0;
