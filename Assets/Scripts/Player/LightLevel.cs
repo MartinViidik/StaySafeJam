@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class LightLevel : MonoBehaviour
 {
+    public bool active = true;
     public bool inLight = false;
     public float maxLightLevel = 10f;
     public float lightLevel = 10f;
@@ -42,38 +43,41 @@ public class LightLevel : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //LightLevel
-        timeUntilLevelUpdate -= Time.deltaTime;
-        
-        if (timeUntilLevelUpdate <= 0)
+        if (active)
         {
-            if (inLight == false)
-                lightLevel--;
+            //LightLevel
+            timeUntilLevelUpdate -= Time.deltaTime;
 
-            if (inLight == true && dying == false)
-                lightLevel++;
-
-            if (lightLevel > maxLightLevel)
-                lightLevel = maxLightLevel;
-
-            if (lightLevel < 0)
+            if (timeUntilLevelUpdate <= 0)
             {
-                FadeToLevel("GameOver");
-                lightLevel = 0;
+                if (inLight == false)
+                    lightLevel--;
+
+                if (inLight == true && dying == false)
+                    lightLevel++;
+
+                if (lightLevel > maxLightLevel)
+                    lightLevel = maxLightLevel;
+
+                if (lightLevel < 0)
+                {
+                    FadeToLevel("GameOver");
+                    lightLevel = 0;
+                }
+
+                lightLevelBar.setSize(lightLevel / maxLightLevel);
+                timeUntilLevelUpdate = timeBetweenLevelUpdate;
             }
 
-            lightLevelBar.setSize(lightLevel/maxLightLevel);
-            timeUntilLevelUpdate = timeBetweenLevelUpdate;
-        }
+            //Switch to GameOver
+            if (dying == true)
+            {
+                timeUntilGameOver -= Time.deltaTime;
+            }
 
-        //Switch to GameOver
-        if (dying == true)
-        {
-            timeUntilGameOver -= Time.deltaTime;
+            if (timeUntilGameOver <= 0)
+                SceneManager.LoadScene(levelToLoad);
         }
-
-        if (timeUntilGameOver <= 0)
-            SceneManager.LoadScene(levelToLoad);
     }
 
     public void FadeToLevel(string GameOver)

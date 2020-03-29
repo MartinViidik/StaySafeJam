@@ -9,6 +9,7 @@ public class Mailbox : MonoBehaviour
     [SerializeField] SpriteRenderer mailboxSprite;
     [SerializeField] private RuinedHouse dissolvingSprite;
     public GameObject connectedBuilding;
+    private GameObject player;
 
     private void Awake()
     {
@@ -23,6 +24,7 @@ public class Mailbox : MonoBehaviour
             {
                 PlayerInventory.Instance.interactableObject = gameObject;
                 PlayerInventory.Instance.ShowButtonSprite(true);
+                player = col.gameObject;
             }
         }
     }
@@ -46,6 +48,7 @@ public class Mailbox : MonoBehaviour
 
     public IEnumerator DissolveCutscene()
     {
+        player.GetComponent<LightLevel>().active = false;
         GuideArrow.Instance.SetArrowState(false);
         CameraController.Instance.SwitchTarget(connectedBuilding);
         yield return new WaitForSeconds(1.25f);
@@ -56,6 +59,9 @@ public class Mailbox : MonoBehaviour
             FadeImage.Instance.FadeEnding();
         }
         RainController.Instance.ReduceRainLevel();
+        yield return new WaitForSeconds(2.25f);
+        player.GetComponent<LightLevel>().active = true;
+        player.GetComponent<LightLevel>().inLight = true;
     }
 
     public void SetMailboxColor(Color newColor)
