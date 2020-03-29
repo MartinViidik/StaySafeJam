@@ -182,7 +182,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5717619309714666962}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 3.45, y: -4.35, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 5717619310337971219}
@@ -203,7 +203,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72a2cbafc873f924da304e8d83dbcdb0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.5
+  speed: 1.5
   rb: {fileID: 5717619309714666961}
   anim: {fileID: 5717619310337971221}
 --- !u!50 &5717619309714666961
@@ -251,7 +251,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.29, y: 0.64}
+  m_Size: {x: 0.29, y: 0.46}
   m_EdgeRadius: 0
 --- !u!114 &687790373
 MonoBehaviour:
@@ -267,6 +267,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactableObject: {fileID: 0}
   buttonSprite: {fileID: 4850369657243731100}
+  lastMail: 0
 --- !u!1 &5717619310337971220
 GameObject:
   m_ObjectHideFlags: 0
@@ -338,7 +339,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 3454117843056526258, guid: 04bb62fb5963b844281a090d172b4545,
+  m_Sprite: {fileID: 3522456174816133588, guid: 36d1e4a87fae4544980673dfa3814f0d,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -360,7 +361,7 @@ Animator:
   m_GameObject: {fileID: 5717619310337971220}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 6ed93acd36b6c4f479172afb9781cde2, type: 2}
+  m_Controller: {fileID: 9100000, guid: 6030669999c82914184841c67510eb01, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

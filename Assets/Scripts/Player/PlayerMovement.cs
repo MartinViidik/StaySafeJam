@@ -75,9 +75,22 @@ public class PlayerMovement : MonoBehaviour
 
     void Animate(float horizontal, float vertical)
     {
-        anim.SetFloat("Horizontal", horizontal);
-        anim.SetFloat("Vertical", vertical);
-        anim.SetFloat("Speed", movementSpeed);
+        if (Input.GetAxis("Horizontal") > 0 || Input.GetAxis("Horizontal") < 0 || Input.GetAxis("Vertical") > 0 || Input.GetAxis("Vertical") < 0)
+        {
+            anim.SetLayerWeight(1, 1);
+            anim.SetLayerWeight(0, 0);
+            anim.SetBool("Walking", true);
+            anim.SetFloat("Horizontal", horizontal);
+            anim.SetFloat("Vertical", vertical);
+        }
+        else
+        {
+            anim.SetLayerWeight(0, 1);
+            anim.SetLayerWeight(1, 0);
+            anim.SetBool("Walking", false);
+        }
+
+//        anim.SetFloat("Speed", movementSpeed);
     }
 
     public void SetMovementEnabled(bool state)
