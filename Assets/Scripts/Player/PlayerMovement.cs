@@ -105,6 +105,11 @@ public class PlayerMovement : MonoBehaviour
             movementDirection = new Vector2(0, 0);
             movementSpeed = 0;
             rb.velocity = new Vector2(0, 0);
+            if (dead)
+            {
+                Animate(0, 0);
+                anim.SetTrigger("Dead");
+            }
         }
     }
 }

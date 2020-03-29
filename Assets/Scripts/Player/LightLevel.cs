@@ -84,6 +84,7 @@ public class LightLevel : MonoBehaviour
     {
         _dead = true;
         PlayerMovement.Instance.dead = true;
+        PlayerMovement.Instance.SetMovementEnabled(false);
         playerAnimator.SetTrigger("Dead");
         ColorAdjustments colorAdjustments;
         Camera.main.GetComponent<Volume>().profile.TryGet(out colorAdjustments);
