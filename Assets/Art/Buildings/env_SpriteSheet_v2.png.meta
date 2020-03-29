@@ -1,0 +1,1232 @@
+fileFormatVersion: 2
+guid: de4489329b30e4041a0cde2d3c4a1d8a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -577885729452731050
+    second: wall_v_dark
+  - first:
+      213: -2520208444487694442
+    second: bonfire_dark
+  - first:
+      213: 7400785556728966716
+    second: building_small_dark
+  - first:
+      213: -5249958229230273485
+    second: building_large_dark
+  - first:
+      213: -1586954631784455609
+    second: wall_v_light
+  - first:
+      213: 4884640273910479084
+    second: bonfire_light
+  - first:
+      213: -9090733788942953429
+    second: building_small_light
+  - first:
+      213: 1686630564877219090
+    second: building_large_light
+  - first:
+      213: 3614682852230543595
+    second: doodad_4_dark
+  - first:
+      213: -8063290265101373036
+    second: doodad_3_dark
+  - first:
+      213: 2161801057624968582
+    second: doodad_1_dark
+  - first:
+      213: 5368520316915345887
+    second: wall_h_dark
+  - first:
+      213: 8007538164239899263
+    second: doodad_4_light
+  - first:
+      213: -795578345503922815
+    second: doodad_3_light
+  - first:
+      213: -2277758103082563464
+    second: doodad_1_light
+  - first:
+      213: 1577191839725250251
+    second: wall_h_light
+  - first:
+      213: 1855158523820202298
+    second: doodad_2_dark
+  - first:
+      213: -8861980012292486022
+    second: monument_h_dark
+  - first:
+      213: -6982973167160979847
+    second: monument_v_dark
+  - first:
+      213: 4906427660916756917
+    second: stairs_v_dark
+  - first:
+      213: -7072282955551916031
+    second: doodad_2_light
+  - first:
+      213: 5066732344034244173
+    second: monument_h_light
+  - first:
+      213: -3647944193938919765
+    second: monument_v_light
+  - first:
+      213: -4502544941160602661
+    second: stairs_v_light
+  - first:
+      213: -5619015847027245720
+    second: streetlight_dark
+  - first:
+      213: -1932211082748138107
+    second: sign_dark
+  - first:
+      213: 538055508968446435
+    second: trash_dark
+  - first:
+      213: -334386881298876605
+    second: stairs_h_dark
+  - first:
+      213: 2664926517683486554
+    second: bench_dark
+  - first:
+      213: -3322887640685959805
+    second: streetlight_light
+  - first:
+      213: -7347004768442239189
+    second: sign_light
+  - first:
+      213: -8696304368375741599
+    second: trash_light
+  - first:
+      213: 2551118257304080887
+    second: stairs_h_light
+  - first:
+      213: 5057052499043804900
+    second: bench_light
+  - first:
+      213: -6882059774125528824
+    second: tree_large_dark
+  - first:
+      213: 3395124749222749249
+    second: tree_small_dark
+  - first:
+      213: -4580828004449581967
+    second: building_med_dark
+  - first:
+      213: -2579665386229402830
+    second: solarpanel_dark
+  - first:
+      213: 5173912428022967620
+    second: tree_large_light
+  - first:
+      213: -736489113816021870
+    second: tree_small_light
+  - first:
+      213: -7278155205632485080
+    second: building_med_light
+  - first:
+      213: -5317636399537626971
+    second: solarpanel_light
+  - first:
+      213: -7595316775892687292
+    second: doors_dark
+  - first:
+      213: -7303493528328242673
+    second: vent_dark
+  - first:
+      213: 2455873351986442010
+    second: doors_light
+  - first:
+      213: -5677876344062209365
+    second: vent_light
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: wall_v_dark
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 3101
+        width: 119
+        height: 689
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 655d337adffeaf7f0800000000000000
+      internalID: -577885729452731050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonfire_dark
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 3182
+        width: 703
+        height: 703
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6970f5ab5cb660dd0800000000000000
+      internalID: -2520208444487694442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building_small_dark
+      rect:
+        serializedVersion: 2
+        x: 1721
+        y: 2283
+        width: 777
+        height: 1047
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3eeba7b04fd4b660800000000000000
+      internalID: 7400785556728966716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building_large_dark
+      rect:
+        serializedVersion: 2
+        x: 2596
+        y: 1520
+        width: 897
+        height: 1862
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c37155ec66427b0800000000000000
+      internalID: -5249958229230273485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall_v_light
+      rect:
+        serializedVersion: 2
+        x: 3820
+        y: 3101
+        width: 119
+        height: 689
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 742a3d1ab210af9e0800000000000000
+      internalID: -1586954631784455609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonfire_light
+      rect:
+        serializedVersion: 2
+        x: 4041
+        y: 3182
+        width: 703
+        height: 703
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce8300ef27ab9c340800000000000000
+      internalID: 4884640273910479084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building_small_light
+      rect:
+        serializedVersion: 2
+        x: 5321
+        y: 2272
+        width: 777
+        height: 1047
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b241a62a8c937d180800000000000000
+      internalID: -9090733788942953429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building_large_light
+      rect:
+        serializedVersion: 2
+        x: 6196
+        y: 1520
+        width: 897
+        height: 1862
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 215b2d6009d186710800000000000000
+      internalID: 1686630564877219090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doodad_4_dark
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 2353
+        width: 218
+        height: 703
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be8b5e617eee92230800000000000000
+      internalID: 3614682852230543595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doodad_3_dark
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 2177
+        width: 169
+        height: 713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49174cb9930791090800000000000000
+      internalID: -8063290265101373036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doodad_1_dark
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 2581
+        width: 151
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68dccc2bb92400e10800000000000000
+      internalID: 2161801057624968582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall_h_dark
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 2486
+        width: 632
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd9e43bd8c0d08a40800000000000000
+      internalID: 5368520316915345887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doodad_4_light
+      rect:
+        serializedVersion: 2
+        x: 3827
+        y: 2353
+        width: 218
+        height: 703
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a17ecd88d702f60800000000000000
+      internalID: 8007538164239899263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doodad_3_light
+      rect:
+        serializedVersion: 2
+        x: 4055
+        y: 2177
+        width: 169
+        height: 713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185ee3db5b985f4f0800000000000000
+      internalID: -795578345503922815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doodad_1_light
+      rect:
+        serializedVersion: 2
+        x: 4277
+        y: 2581
+        width: 151
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8780f75c217c360e0800000000000000
+      internalID: -2277758103082563464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall_h_light
+      rect:
+        serializedVersion: 2
+        x: 4597
+        y: 2486
+        width: 632
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc6e7753f9f43e510800000000000000
+      internalID: 1577191839725250251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doodad_2_dark
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 2137
+        width: 210
+        height: 430
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a39575e29d8deb910800000000000000
+      internalID: 1855158523820202298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monument_h_dark
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 1492
+        width: 387
+        height: 808
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7cc1b0b12ce30580800000000000000
+      internalID: -8861980012292486022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monument_v_dark
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 1501
+        width: 221
+        height: 939
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e094fd6ee771f90800000000000000
+      internalID: -6982973167160979847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stairs_v_dark
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 1836
+        width: 404
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1181556f1271440800000000000000
+      internalID: 4906427660916756917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doodad_2_light
+      rect:
+        serializedVersion: 2
+        x: 4323
+        y: 2137
+        width: 210
+        height: 430
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 100474b5f143add90800000000000000
+      internalID: -7072282955551916031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monument_h_light
+      rect:
+        serializedVersion: 2
+        x: 4537
+        y: 1492
+        width: 387
+        height: 808
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d46b422e836a05640800000000000000
+      internalID: 5066732344034244173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: monument_v_light
+      rect:
+        serializedVersion: 2
+        x: 4959
+        y: 1495
+        width: 221
+        height: 939
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bae62df4516ef5dc0800000000000000
+      internalID: -3647944193938919765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stairs_v_light
+      rect:
+        serializedVersion: 2
+        x: 5237
+        y: 1836
+        width: 404
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd3e3e44b3fb381c0800000000000000
+      internalID: -4502544941160602661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streetlight_dark
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1485
+        width: 116
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86d76a2abde3502b0800000000000000
+      internalID: -5619015847027245720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sign_dark
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1485
+        width: 429
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58d69bde1486f25e0800000000000000
+      internalID: -1932211082748138107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trash_dark
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 1499
+        width: 169
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e9918972ae877700800000000000000
+      internalID: 538055508968446435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stairs_h_dark
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 1492
+        width: 408
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34731a237e40c5bf0800000000000000
+      internalID: -334386881298876605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bench_dark
+      rect:
+        serializedVersion: 2
+        x: 2122
+        y: 1495
+        width: 457
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5ffa076c88bbf420800000000000000
+      internalID: 2664926517683486554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: streetlight_light
+      rect:
+        serializedVersion: 2
+        x: 3700
+        y: 1485
+        width: 116
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 385a064db4bb2e1d0800000000000000
+      internalID: -3322887640685959805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sign_light
+      rect:
+        serializedVersion: 2
+        x: 3862
+        y: 1485
+        width: 429
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2736e5d6123a0a90800000000000000
+      internalID: -7347004768442239189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trash_light
+      rect:
+        serializedVersion: 2
+        x: 4340
+        y: 1499
+        width: 169
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16349408045805780800000000000000
+      internalID: -8696304368375741599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stairs_h_light
+      rect:
+        serializedVersion: 2
+        x: 5226
+        y: 1492
+        width: 408
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f19f92e984676320800000000000000
+      internalID: 2551118257304080887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bench_light
+      rect:
+        serializedVersion: 2
+        x: 5722
+        y: 1495
+        width: 457
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e6e10854724e2640800000000000000
+      internalID: 5057052499043804900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_large_dark
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 599
+        width: 872
+        height: 791
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8092e3029130e70a0800000000000000
+      internalID: -6882059774125528824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_small_dark
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 796
+        width: 611
+        height: 559
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1442f85a8f7ed1f20800000000000000
+      internalID: 3395124749222749249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building_med_dark
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 346
+        width: 1129
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1740f914331ad60c0800000000000000
+      internalID: -4580828004449581967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solarpanel_dark
+      rect:
+        serializedVersion: 2
+        x: 3190
+        y: 691
+        width: 243
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 233fc66bfff233cd0800000000000000
+      internalID: -2579665386229402830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_large_light
+      rect:
+        serializedVersion: 2
+        x: 3834
+        y: 599
+        width: 872
+        height: 791
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44da943d0fd6dc740800000000000000
+      internalID: 5173912428022967620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree_small_light
+      rect:
+        serializedVersion: 2
+        x: 4801
+        y: 796
+        width: 611
+        height: 559
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 294cd069d0777c5f0800000000000000
+      internalID: -736489113816021870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: building_med_light
+      rect:
+        serializedVersion: 2
+        x: 5500
+        y: 346
+        width: 1129
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8299d1cd66ccefa90800000000000000
+      internalID: -7278155205632485080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: solarpanel_light
+      rect:
+        serializedVersion: 2
+        x: 6790
+        y: 691
+        width: 243
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a06fd06ed5f336b0800000000000000
+      internalID: -5317636399537626971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doors_dark
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 230
+        width: 499
+        height: 531
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 446e95052a3089690800000000000000
+      internalID: -7595316775892687292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vent_dark
+      rect:
+        serializedVersion: 2
+        x: 3180
+        y: 255
+        width: 270
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0a71a0e457c4aa90800000000000000
+      internalID: -7303493528328242673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doors_light
+      rect:
+        serializedVersion: 2
+        x: 4846
+        y: 230
+        width: 499
+        height: 531
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1fef764dc3051220800000000000000
+      internalID: 2455873351986442010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vent_light
+      rect:
+        serializedVersion: 2
+        x: 6780
+        y: 255
+        width: 270
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba214993c812431b0800000000000000
+      internalID: -5677876344062209365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
