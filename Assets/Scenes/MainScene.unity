@@ -28138,6 +28138,11 @@ PrefabInstance:
       propertyPath: m_Color.a
       value: 0.36078432
       objectReference: {fileID: 0}
+    - target: {fileID: 370715513883965121, guid: 508a8d8868e642746b2a73c9122d0e31,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 370715514014931537, guid: 508a8d8868e642746b2a73c9122d0e31,
         type: 3}
       propertyPath: m_PointLightOuterRadius
