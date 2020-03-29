@@ -43,6 +43,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0f981fa7b3b2464da9f6f0078cec466, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  image: {fileID: 21300000, guid: f8acaaf5eb4173f4092ab16f93cc87ba, type: 3}
+  image: {fileID: 21300000, guid: 5a12a9b93f4d8254b9ec557d94eec42d, type: 3}
   title: GameJam invitation
   content: Invitation to participate in the StaySafeJam gamejam

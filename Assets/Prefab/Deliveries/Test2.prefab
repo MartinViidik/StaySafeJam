@@ -43,6 +43,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0f981fa7b3b2464da9f6f0078cec466, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  image: {fileID: 82707731993968007, guid: 8ffdd1e87ab687e4c808f87eb1b03fc1, type: 3}
+  image: {fileID: 21300000, guid: d42f3d297f8e2404d84772d15a4c001e, type: 3}
   title: Food
   content: Weekly supply of food for an elderly couple

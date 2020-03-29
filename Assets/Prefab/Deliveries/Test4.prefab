@@ -43,6 +43,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0f981fa7b3b2464da9f6f0078cec466, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  image: {fileID: 82707731993968007, guid: 8ffdd1e87ab687e4c808f87eb1b03fc1, type: 3}
+  image: {fileID: 21300000, guid: b00edd0852d4ca14d8f632e959e4f5cd, type: 3}
   title: Toilet Paper
   content: Absolute necessity in these troubling times
