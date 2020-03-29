@@ -12,6 +12,7 @@ public class Patrol : MonoBehaviour
     [SerializeField] private SpriteRenderer spriteRenderer;
     [SerializeField] private float dissolvingTime;
     [SerializeField] private Color dissolvingColor;
+    [SerializeField] private AudioSource audioSource;
     private Vector2 _movementDirection;
     private int _randomSpot;
     private float _waitTime;
@@ -21,6 +22,7 @@ public class Patrol : MonoBehaviour
     private float _vertical;
     private Vector2 _lastPosition;
     private Vector2 _startPosition;
+    private bool _done;
 
     private void Start()
     {
@@ -77,8 +79,9 @@ public class Patrol : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player") && !_done)
         {
+            _done = true;
             StartCoroutine(CoDissolving());
         }
     }
@@ -86,6 +89,7 @@ public class Patrol : MonoBehaviour
     private IEnumerator CoDissolving()
     {
         var currentTime = 0f;
+        audioSource.Play();
 
         while (currentTime < dissolvingTime)
         {
