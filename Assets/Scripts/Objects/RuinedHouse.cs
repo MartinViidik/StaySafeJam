@@ -44,7 +44,7 @@ public class RuinedHouse : MonoBehaviour
         Dissolve();
     }
 
-    void PlaySound()
+    private void PlaySound()
     {
         AudioClip sound = restoreSFX[UnityEngine.Random.Range(0, restoreSFX.Length)];
         ac.PlayOneShot(sound);
