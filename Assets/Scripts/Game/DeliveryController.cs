@@ -38,6 +38,7 @@ public class DeliveryController : MonoBehaviour
         Mailbox mailbox = GetRandomMailbox().GetComponent<Mailbox>();
         mailbox.SetStatus(true);
         mailboxes.Remove(mailbox);
+        GuideArrow.Instance.SetNewTarget(mailbox.gameObject);
         if(mailboxes.Count == 0)
         {
             PlayerInventory.Instance.lastMail = true;

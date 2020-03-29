@@ -46,6 +46,7 @@ public class Mailbox : MonoBehaviour
 
     public IEnumerator DissolveCutscene()
     {
+        GuideArrow.Instance.SetArrowState(false);
         CameraController.Instance.SwitchTarget(connectedBuilding);
         yield return new WaitForSeconds(1.25f);
         Dissolve();

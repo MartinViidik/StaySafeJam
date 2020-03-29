@@ -62,5 +62,6 @@ public class CameraController : MonoBehaviour
 		target = player;
 		yield return new WaitForSeconds(1);
 		PlayerMovement.Instance.SetMovementEnabled(true);
+		GuideArrow.Instance.ReturnToBase();
 	}
 }
