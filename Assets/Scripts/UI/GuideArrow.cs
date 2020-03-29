@@ -1,12 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GuideArrow : MonoBehaviour
 {
     public GameObject target;
     public GameObject returnPoint;
-    public SpriteRenderer renderer;
+    public Image renderer;
     private Vector3 v_diff;
     private float atan2;
     [SerializeField] private Transform uiArrow;
@@ -39,7 +40,7 @@ public class GuideArrow : MonoBehaviour
 
     public void SetArrowState(bool state)
     {
-//        renderer.enabled = state;
+        renderer.enabled = state;
     }
 
     private void Update()
