@@ -1,6 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
+using UnityEngine.Rendering;
+using UnityEngine.Rendering.Universal;
 using UnityEngine.SceneManagement;
 
 public class LightLevel : MonoBehaviour
@@ -13,20 +16,16 @@ public class LightLevel : MonoBehaviour
     public float timeUntilLevelUpdate = 1f;
     public string strTag = "Light";
     [SerializeField] private LightLevelBar lightLevelBar;
+    [SerializeField] private Animator playerAnimator;
     public Animator animator;
     private string levelToLoad = "GameOver";
     public float timeUntilGameOver;
-    bool dying = false;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    bool dying;
+    private bool _dead;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == strTag)
+        if (collision.gameObject.CompareTag(strTag))
         {
             inLight = true;
         }
@@ -34,7 +33,7 @@ public class LightLevel : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == strTag)
+        if (collision.gameObject.CompareTag(strTag))
         {
             inLight = false;
         }
@@ -61,7 +60,8 @@ public class LightLevel : MonoBehaviour
 
                 if (lightLevel < 0)
                 {
-                    FadeToLevel("GameOver");
+                    if (!_dead)
+                        StartCoroutine(Dying());
                     lightLevel = 0;
                 }
 
@@ -70,7 +70,7 @@ public class LightLevel : MonoBehaviour
             }
 
             //Switch to GameOver
-            if (dying == true)
+            if (dying)
             {
                 timeUntilGameOver -= Time.deltaTime;
             }
@@ -80,9 +80,23 @@ public class LightLevel : MonoBehaviour
         }
     }
 
+    private IEnumerator Dying()
+    {
+        _dead = true;
+        PlayerMovement.Instance.dead = true;
+        playerAnimator.SetTrigger("Dead");
+        ColorAdjustments colorAdjustments;
+        Camera.main.GetComponent<Volume>().profile.TryGet(out colorAdjustments);
+//        colorAdjustments.saturation.value = 0f;
+        DOTween.To(() => colorAdjustments.saturation.value, value => colorAdjustments.saturation.value = value, -100f, 1.5f);
+
+        yield return new WaitForSeconds(3f);
+        FadeToLevel("GameOver");
+    }
+
     public void FadeToLevel(string GameOver)
     {
-        levelToLoad = "GameOver";
+        levelToLoad = GameOver;
         animator.SetTrigger("FadeOut");
         dying = true;
     }

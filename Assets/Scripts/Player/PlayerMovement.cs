@@ -16,9 +16,10 @@ public class PlayerMovement : MonoBehaviour
     float lastDirectionHorizontal = 0;
     float lastDirectionVertical = 0;
     bool enabled;
-
+    public bool dead;
     public static PlayerMovement Instance { get { return _instance; } }
     private static PlayerMovement _instance;
+    
     void Awake()
     {
         if (_instance != null && _instance != this)
@@ -35,6 +36,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        if(dead) return;
         if (enabled)
         {
             GetInput();
@@ -43,6 +45,8 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if(dead) return;
+
         if (enabled)
         {
             movementDirection = new Vector2(0, 0);
@@ -89,8 +93,6 @@ public class PlayerMovement : MonoBehaviour
             anim.SetLayerWeight(1, 0);
             anim.SetBool("Walking", false);
         }
-
-//        anim.SetFloat("Speed", movementSpeed);
     }
 
     public void SetMovementEnabled(bool state)
