@@ -9,6 +9,7 @@ public class GuideArrow : MonoBehaviour
     public SpriteRenderer renderer;
     private Vector3 v_diff;
     private float atan2;
+    [SerializeField] private Transform uiArrow;
 
     private static GuideArrow _instance;
     public static GuideArrow Instance { get { return _instance; } }
@@ -38,7 +39,7 @@ public class GuideArrow : MonoBehaviour
 
     public void SetArrowState(bool state)
     {
-        renderer.enabled = state;
+//        renderer.enabled = state;
     }
 
     private void Update()
@@ -48,6 +49,7 @@ public class GuideArrow : MonoBehaviour
             v_diff = (target.transform.position - transform.position);
             atan2 = Mathf.Atan2(v_diff.y, v_diff.x);
             transform.rotation = Quaternion.Euler(0f, 0f, atan2 * Mathf.Rad2Deg);
+            uiArrow.localRotation = transform.rotation;
         }
     }
 }

@@ -98,18 +98,19 @@ public class PlayerMovement : MonoBehaviour
     public void SetMovementEnabled(bool state)
     {
         enabled = state;
+        anim.SetLayerWeight(0, 1);
+        anim.SetLayerWeight(1, 0);
         anim.SetBool("Walking", false);
-        if (!state)
+
+        if (state) return;
+        horizontal = 0;
+        vertical = 0;
+        movementDirection = new Vector2(0, 0);
+        movementSpeed = 0;
+        rb.velocity = new Vector2(0, 0);
+        if (dead)
         {
-            horizontal = 0;
-            vertical = 0;
-            movementDirection = new Vector2(0, 0);
-            movementSpeed = 0;
-            rb.velocity = new Vector2(0, 0);
-            if (dead)
-            {
-                Animate(0, 0);
-            }
+            Animate(0, 0);
         }
     }
 }
