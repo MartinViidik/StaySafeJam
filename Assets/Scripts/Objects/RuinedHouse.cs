@@ -20,6 +20,7 @@ public class RuinedHouse : MonoBehaviour
         foreach (var l in lights)
         {
             l.intensity = 0f;
+            l.gameObject.tag = "Untagged";
         }
         ac = GetComponent<AudioSource>();
     }
@@ -34,6 +35,7 @@ public class RuinedHouse : MonoBehaviour
         {
             foreach (var l in lights)
             {
+                l.gameObject.tag = "Light";
                 DOTween.To(() => l.intensity, value => l.intensity = value, 1, 1f);
             }
         });

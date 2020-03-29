@@ -1,0 +1,1184 @@
+fileFormatVersion: 2
+guid: c119dccdd236e9e41bfb47dd8eb42403
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2980083161399374311
+    second: MainCharaSpriteAniDark_0
+  - first:
+      213: 3372532633409065690
+    second: MainCharaSpriteAniDark_1
+  - first:
+      213: -6102374511671169261
+    second: MainCharaSpriteAniDark_2
+  - first:
+      213: 2964648542790240916
+    second: MainCharaSpriteAniDark_3
+  - first:
+      213: 1463399656643388120
+    second: MainCharaSpriteAniDark_4
+  - first:
+      213: -8962416208379375355
+    second: MainCharaSpriteAniDark_5
+  - first:
+      213: 1667487706785049805
+    second: MainCharaSpriteAniDark_6
+  - first:
+      213: 4833599736370589238
+    second: MainCharaSpriteAniDark_7
+  - first:
+      213: -8904762154644795112
+    second: MainCharaSpriteAniDark_8
+  - first:
+      213: 1912428103307673003
+    second: MainCharaSpriteAniDark_9
+  - first:
+      213: -3692986897128679441
+    second: MainCharaSpriteAniDark_10
+  - first:
+      213: -6493303023311520867
+    second: MainCharaSpriteAniDark_11
+  - first:
+      213: -9036371909347142574
+    second: MainCharaSpriteAniDark_12
+  - first:
+      213: 6063316491412653362
+    second: MainCharaSpriteAniDark_13
+  - first:
+      213: -9178357530540524407
+    second: MainCharaSpriteAniDark_14
+  - first:
+      213: 4187654917563768037
+    second: MainCharaSpriteAniDark_15
+  - first:
+      213: -6402685593123632914
+    second: MainCharaSpriteAniDark_16
+  - first:
+      213: 7766773229975744823
+    second: MainCharaSpriteAniDark_17
+  - first:
+      213: 6479008168334102429
+    second: MainCharaSpriteAniDark_18
+  - first:
+      213: -6904233985468367395
+    second: MainCharaSpriteAniDark_19
+  - first:
+      213: -5126062887091874539
+    second: MainCharaSpriteAniDark_20
+  - first:
+      213: 1580642775688892407
+    second: MainCharaSpriteAniDark_21
+  - first:
+      213: -8105013001989208881
+    second: MainCharaSpriteAniDark_22
+  - first:
+      213: 1606712442642443369
+    second: MainCharaSpriteAniDark_23
+  - first:
+      213: -2422222370344132622
+    second: MainCharaSpriteAniDark_24
+  - first:
+      213: 7397384174686725823
+    second: MainCharaSpriteAniDark_25
+  - first:
+      213: -4755947199664650161
+    second: MainCharaSpriteAniDark_26
+  - first:
+      213: -2420400039476923557
+    second: MainCharaSpriteAniDark_27
+  - first:
+      213: 7014174422342134874
+    second: MainCharaSpriteAniDark_28
+  - first:
+      213: -2132598406564145951
+    second: MainCharaSpriteAniDark_29
+  - first:
+      213: 2142631679358412277
+    second: MainCharaSpriteAniDark_30
+  - first:
+      213: -6452080925691872637
+    second: MainCharaSpriteAniDark_31
+  - first:
+      213: -2845875895862958204
+    second: MainCharaSpriteAniDark_32
+  - first:
+      213: -8765647178982424621
+    second: MainCharaSpriteAniDark_33
+  - first:
+      213: 8690804337312147358
+    second: MainCharaSpriteAniDark_34
+  - first:
+      213: -1607214399247926480
+    second: MainCharaSpriteAniDark_35
+  - first:
+      213: 714312823974742629
+    second: MainCharaSpriteAniDark_36
+  - first:
+      213: -2846243308508974552
+    second: MainCharaSpriteAniDark_37
+  - first:
+      213: -5234470182618672266
+    second: MainCharaSpriteAniDark_38
+  - first:
+      213: -6290040852114100678
+    second: MainCharaSpriteAniDark_39
+  - first:
+      213: -3970538555033298199
+    second: MainCharaSpriteAniDark_40
+  - first:
+      213: 5820500460290032857
+    second: MainCharaSpriteAniDark_41
+  - first:
+      213: 1044656419577966178
+    second: MainCharaSpriteAniDark_42
+  - first:
+      213: 6619792670029386588
+    second: MainCharaSpriteAniDark_43
+  - first:
+      213: 4685742492820526885
+    second: MainCharaSpriteAniDark_44
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MainCharaSpriteAniDark_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 390
+        width: 33
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e1355c98d16b5920800000000000000
+      internalID: 2980083161399374311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAniDark_1
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 390
+        width: 33
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad292c7cf84adce20800000000000000
+      internalID: 3372532633409065690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAniDark_2
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 390
+        width: 33
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f2171a6b2005ba0800000000000000
+      internalID: -6102374511671169261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAniDark_3
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 390
+        width: 33
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a44ec642c842920800000000000000
+      internalID: 2964648542790240916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAniDark_4
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 390
+        width: 33
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d268aafb3a0f4410800000000000000
+      internalID: 1463399656643388120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAniDark_5
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 390
+        width: 33
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 501185281f91f9380800000000000000
+      internalID: -8962416208379375355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAniDark_6
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 390
+        width: 33
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcce04e0c3b142710800000000000000
+      internalID: 1667487706785049805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAniDark_7
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 390
+        width: 33
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e6ac8c955641340800000000000000
+      internalID: 4833599736370589238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAniDark_8
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 390
+        width: 33
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8111e03fffdeb6480800000000000000
+      internalID: -8904762154644795112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAniDark_9
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 390
+        width: 33
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: badb02c3a3f4a8a10800000000000000
+      internalID: 1912428103307673003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAniDark_10
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 390
+        width: 33
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe7197cbbffdfbcc0800000000000000
+      internalID: -3692986897128679441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAniDark_11
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 390
+        width: 33
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9bfb84ad4723e5a0800000000000000
+      internalID: -6493303023311520867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAniDark_12
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 294
+        width: 33
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2549b0d00ab589280800000000000000
+      internalID: -9036371909347142574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAniDark_13
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 294
+        width: 33
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2354b6f593a352450800000000000000
+      internalID: 6063316491412653362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAniDark_14
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 294
+        width: 33
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98cb99a747cef9080800000000000000
+      internalID: -9178357530540524407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAniDark_15
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 294
+        width: 33
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ec5e4bd5f98d1a30800000000000000
+      internalID: 4187654917563768037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAniDark_16
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 200
+        width: 30
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee8ca5d30671527a0800000000000000
+      internalID: -6402685593123632914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAniDark_17
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 200
+        width: 30
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 731b7bf3a1f19cb60800000000000000
+      internalID: 7766773229975744823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAniDark_18
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 200
+        width: 30
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f88621a9f0ae950800000000000000
+      internalID: 6479008168334102429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAniDark_19
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 200
+        width: 30
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddd7af935cb3f20a0800000000000000
+      internalID: -6904233985468367395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAniDark_20
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 200
+        width: 30
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 515539696f09cd8b0800000000000000
+      internalID: -5126062887091874539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAniDark_21
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 200
+        width: 30
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff49b9da329fe510800000000000000
+      internalID: 1580642775688892407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAniDark_22
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 200
+        width: 30
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc4c28ced95358f80800000000000000
+      internalID: -8105013001989208881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAniDark_23
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 200
+        width: 30
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c27ef24703c4610800000000000000
+      internalID: 1606712442642443369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAniDark_24
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 200
+        width: 30
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff12a07699826ed0800000000000000
+      internalID: -2422222370344132622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAniDark_25
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 200
+        width: 30
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb66c4fb6b9c8a660800000000000000
+      internalID: 7397384174686725823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAniDark_26
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 200
+        width: 30
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f488971583b7ffdb0800000000000000
+      internalID: -4755947199664650161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAniDark_27
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 200
+        width: 30
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b53f2a8ecf2096ed0800000000000000
+      internalID: -2420400039476923557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAniDark_28
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 108
+        width: 30
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5c6554797a575160800000000000000
+      internalID: 7014174422342134874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAniDark_29
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 108
+        width: 30
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e41e285c0d7762e0800000000000000
+      internalID: -2132598406564145951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAniDark_30
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 108
+        width: 30
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f528a409282cbd10800000000000000
+      internalID: 2142631679358412277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAniDark_31
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 108
+        width: 30
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38aff0a259a9576a0800000000000000
+      internalID: -6452080925691872637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAniDark_32
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 108
+        width: 30
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 487ed3863fa6188d0800000000000000
+      internalID: -2845875895862958204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAniDark_33
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 108
+        width: 30
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dff856455a2a5680800000000000000
+      internalID: -8765647178982424621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAniDark_34
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 108
+        width: 30
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e972ae9bf70fb9870800000000000000
+      internalID: 8690804337312147358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAniDark_35
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 108
+        width: 30
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b3feee40702b9e0800000000000000
+      internalID: -1607214399247926480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAniDark_36
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 106
+        width: 30
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a45839abfb9e900800000000000000
+      internalID: 714312823974742629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAniDark_37
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 106
+        width: 30
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8227dfb7acc1088d0800000000000000
+      internalID: -2846243308508974552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAniDark_38
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 106
+        width: 30
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 673d3a13a1d6b57b0800000000000000
+      internalID: -5234470182618672266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAniDark_39
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 106
+        width: 30
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3e2b0bcb2945b8a0800000000000000
+      internalID: -6290040852114100678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAniDark_40
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 6
+        width: 33
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ea5f349830d5e8c0800000000000000
+      internalID: -3970538555033298199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAniDark_41
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 6
+        width: 33
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d4c59e845296c050800000000000000
+      internalID: 5820500460290032857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAniDark_42
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 6
+        width: 33
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ea6419a7d5f7e00800000000000000
+      internalID: 1044656419577966178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAniDark_43
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 6
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5316d73c5a3edb50800000000000000
+      internalID: 6619792670029386588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MainCharaSpriteAniDark_44
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 6
+        width: 33
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 527558998f9170140800000000000000
+      internalID: 4685742492820526885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
